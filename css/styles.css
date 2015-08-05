@@ -1,0 +1,202 @@
+body {
+  color: #444444;
+}
+a {
+  color: #008AFF;
+}
+#location {
+  background-color: #008AFF;
+}
+.courses {
+  margin-top: 0px;
+}
+.logo {
+  height: 64px;
+  width: 165px;
+  margin-top: -20px;
+}
+.student-number {
+  font-weight: 400;
+  color: #008AFF;
+}
+.bg-img-half {
+  position: absolute;
+  width: 100%;
+  //height: 100%;
+  min-height: 582px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #292929;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+.stats-text {
+  padding-top: 20px;
+}
+#statistics {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
+.red {
+  height: 582px;
+}
+.white {
+  color: #fff;
+}
+.social-links li {
+  display:inline;
+  font-size: 30px;
+}
+ul.social-links {
+  margin-top: -20px;
+}
+.navbar-transparent {
+  background-color: rgba(30, 30, 30, 0.9);
+}
+#donate-button {
+  padding: 5px 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+#donate-button:hover {
+  color: #444444;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 20px;
+  line-height: 1.42;
+  border-radius: 25px;
+}
+.lead-heading {
+  margin-bottom: 25px;
+}
+.text-box-right {
+  padding-left: 50px;
+}
+.text-box-left {
+  padding-right: 50px;
+}
+.text-box-right-full {
+  padding: 50px;
+}
+.text-box-left-full {
+  padding: 80px;
+}
+.row-full {
+  margin-left: -15px;
+  margin-right: 0px;
+}
+#services {
+  background-color: #f8f8f8;
+}
+.img-shadow {
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.copyright {
+  margin-bottom: 20px;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.jumbotron {
+  height: 600px;
+  margin-bottom: 0px;
+  background: url('../img/hero_image.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main {
+  position: relative;
+  top: 160px;
+  text-align: center;
+}
+.main h1, .main h2 {
+  color: #fff;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+section {
+  padding: 60px 0;
+}
+section.half-image {
+  padding: 0px;
+}
+.image-thumb {
+  max-height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.btn-main {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main h1 {
+  font-size: 42px;
+}
+.main h2 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 500px) {
+  .main h1 {
+    font-size: 32px;
+    padding: 0 40px;
+  }
+  .main h2 {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  .main h1 {
+    font-size: 28px;
+    padding: 0 40px;
+  }
+  .main h2 {
+    font-size: 20px;
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .main h1 {
+    font-size: 40px;
+    padding: 0 40px;
+  }
+  .main h2 {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+  .main h2 {
+    font-size: 21px;
+    padding: 0 40px;
+  }
+}
