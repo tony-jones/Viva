@@ -1,42 +1,27 @@
+/* ==============================================================
+
+Template name : Viva Bootstrap HTML Theme
+Categoriy : Site template
+Author : Anthony Jones
+Last update : 5 Aug 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Header
+02. Hero
+03. Content
+  
+============================================================== */
 body {
   color: #444444;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
 a {
   color: #008AFF;
-}
-#location {
-  background-color: #008AFF;
-}
-.courses {
-  margin-top: 0px;
-}
-.logo {
-  height: 64px;
-  width: 165px;
-  margin-top: -20px;
-}
-.student-number {
-  font-weight: 400;
-  color: #008AFF;
-}
-.bg-img-half {
-  position: absolute;
-  width: 100%;
-  //height: 100%;
-  min-height: 582px;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #292929;
-  background-size: cover !important;
-  background-position: 50% 50% !important;
-}
-.stats-text {
-  padding-top: 20px;
-}
-#statistics {
-  background-color: #f8f8f8;
-  padding: 100px 0;
 }
 .red {
   height: 582px;
@@ -44,65 +29,13 @@ a {
 .white {
   color: #fff;
 }
-.social-links li {
-  display:inline;
-  font-size: 30px;
-}
-ul.social-links {
+/*
+Header
+=========================== */
+.logo {
+  height: 64px;
+  width: 165px;
   margin-top: -20px;
-}
-.navbar-transparent {
-  background-color: rgba(30, 30, 30, 0.9);
-}
-#donate-button {
-  padding: 5px 15px;
-  margin-top: 15px;
-  margin-left: 20px;
-  font-size: 14px;
-  color: #fff;
-}
-#donate-button:hover {
-  color: #444444;
-}
-.btn-circle {
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  padding: 8px 0;
-  font-size: 20px;
-  line-height: 1.42;
-  border-radius: 25px;
-}
-.lead-heading {
-  margin-bottom: 25px;
-}
-.text-box-right {
-  padding-left: 50px;
-}
-.text-box-left {
-  padding-right: 50px;
-}
-.text-box-right-full {
-  padding: 50px;
-}
-.text-box-left-full {
-  padding: 80px;
-}
-.row-full {
-  margin-left: -15px;
-  margin-right: 0px;
-}
-#services {
-  background-color: #f8f8f8;
-}
-.img-shadow {
-  border-radius: 2px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-}
-.copyright {
-  margin-bottom: 20px;
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
   color: #fff;
@@ -110,6 +43,9 @@ ul.social-links {
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+/*
+Hero
+=========================== */
 .jumbotron {
   height: 600px;
   margin-bottom: 0px;
@@ -127,20 +63,6 @@ ul.social-links {
 .main h1, .main h2 {
   color: #fff;
   font-weight: 400;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
-}
-section {
-  padding: 60px 0;
-}
-section.half-image {
-  padding: 0px;
-}
-.image-thumb {
-  max-height: 50px;
-  border-radius: 25px;
-  margin-right: 10px;
 }
 .btn-main {
   background-color: transparent;
@@ -200,3 +122,99 @@ section.half-image {
     padding: 0 40px;
   }
 }
+/*
+Content
+=========================== */
+.bg-img-half {
+  position: absolute;
+  width: 100%;
+  //height: 100%;
+  min-height: 582px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+.row-full {
+  margin-left: -15px;
+  margin-right: 0px;
+}
+.event-image {
+  background-image: url("../img/massey_hall.jpg");
+}
+.profile-image {
+  background-image: url('../img/church_pastor.jpg');
+}
+.about-image {
+  background-image: url('../img/bible_study.jpg');
+}
+#statistics {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
+#services {
+  background-color: #f8f8f8;
+}
+#location {
+  background-color: #008AFF;
+}
+.courses {
+  margin-top: 0px;
+}
+.student-number {
+  font-weight: 400;
+  color: #008AFF;
+}
+.stats-text {
+  padding-top: 20px;
+}
+.social-links li {
+  display:inline;
+  font-size: 30px;
+}
+ul.social-links {
+  margin-top: -20px;
+}
+.navbar-transparent {
+  background-color: rgba(30, 30, 30, 0.9);
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 20px;
+  line-height: 1.42;
+  border-radius: 25px;
+}
+.lead-heading {
+  margin-bottom: 25px;
+}
+.text-box-right {
+  padding-left: 50px;
+}
+.text-box-left {
+  padding-right: 50px;
+}
+.text-box-right-full {
+  padding: 50px;
+}
+.text-box-left-full {
+  padding: 80px;
+}
+.image-thumb {
+  max-height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.copyright {
+  margin-bottom: 20px;
+}
+section {
+  padding: 60px 0;
+}
+section.half-image {
+  padding: 0px;
+}
+
