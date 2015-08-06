@@ -43,6 +43,11 @@ Header
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+.navbar-default .navbar-nav>li>a:hover {
+  color: #212121;
+  background-color: #efefef;
+}
+
 /*
 Hero
 =========================== */
